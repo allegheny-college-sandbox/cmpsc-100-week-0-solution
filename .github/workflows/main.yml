@@ -34,7 +34,7 @@
         run: |
           cd day-0/python-basics
           gradle grade
-          cd..
+          cd ..
         if: always()
       - name: Grade Day 1
         run: |
