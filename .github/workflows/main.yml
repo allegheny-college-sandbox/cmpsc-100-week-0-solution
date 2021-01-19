@@ -24,13 +24,13 @@
           pip install notebook
           pip install pillow
           pipenv install --dev --three
-      - name: Grade Day 0: Platforms
+      - name: Grade Day 0 - Platforms
         run: |
           cd day-0/platforms
           gradle grade
           cd ..
         if: always()
-      - name: Grade Day 0: Python Basics
+      - name: Grade Day 0 - Python Basics
         run: |
           cd day-0/python-basics
           gradle grade
